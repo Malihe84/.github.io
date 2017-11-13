@@ -5,8 +5,11 @@
  categories: jekyll update
 ---
   # What do you think of pre-compiling your CSS?
- 
+ Css preprocessors such as Sass takes the written code like the Scss and converts it to normal CSS. By using precompiling process, i do not need to repeated code-writing and that is why i use it beacuase it is just great.
+
  1. Compare to regular CSS
+ It is quicker to write syntax of SASS and SCSS.
+ 
  2. Which techniques did you use?
  3. Pros and cons?
  
