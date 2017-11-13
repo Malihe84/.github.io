@@ -1,15 +1,20 @@
 ---
  layout: post
  title:  "Static site generators"
- date:   2017-11-13 09:58:01 -0500
+ date:   2017-11-03 04:46:01 -0500
  categories: jekyll update
 ---
-#What do you think of static site generators?
-We used Jekyll in this project and that is really great to use Jekyll building and maintaining websites. Static sites developed locally. And that makes the site both easy to preview and play around with without affecting the live site.
+# What do you think of static site generators?
+
+ We used Jekyll in this project and that is really great to use Jekyll building and maintaining websites. 
+ Static sites developed locally. 
+ And that makes the site both easy to preview and play around with without affecting the live site.
 
 {% highlight ruby %}
  1. What type of projects are they suitable for?
-    That is suitable for blogging website. If somebody want to have a real-time dynamic in the site, Static Site Generators are not a good choice.
+    That is suitable for blogging website. 
+    If somebody want to have a real-time dynamic in the site, 
+    Static Site Generators are not a good choice.
 {% endhighlight %}
 
  [jekyll-docs]: https://jekyllrb.com/docs/home
