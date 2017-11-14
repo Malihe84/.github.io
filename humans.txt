@@ -1,9 +1,12 @@
----
-
-#Creats
+/* Creater */
 
 Name : Malihe Sarvar
-Email : <ms224nn@student.lnu.se>
-Website : <http://localhost:4000>
-Github : <https://github.com/ms224nn>
-Location : Calmar, Sweden
+Email : ms224nn@student.lnu.se
+Github : https://github.com/ms224nn
+Location : Kalmar, Sweden
+
+/* Site */
+
+Last update: 2017/11/14
+Website URL: http://localhost:4000
+Language: English

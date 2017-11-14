@@ -1,0 +1,16 @@
+---
+ layout: post
+ title:  "robots.txt"
+ date:   2017-11-14 04:46:01 -0500
+ categories: jekyll update
+---
+# What is robots.txt and how have you configure it for your site?
+
+
+{% highlight ruby %}
+ 
+{% endhighlight %}
+
+ [jekyll-docs]: https://jekyllrb.com/docs/home
+ [jekyll-gh]:   https://github.com/jekyll/jekyll
+ [jekyll-talk]: https://talk.jekyllrb.com/
