@@ -1,15 +1,40 @@
 ---
  layout: post
- title:  "robots.txt"
+ title:  "Robots and humans txt"
  date:   2017-11-14 04:46:01 -0500
  categories: jekyll update
 ---
 # What is robots.txt and how have you configure it for your site?
 
+Robots.txt is a small file in website root directory and it is identifiesd ifferent parts of websit which it should not be available to crawlers. I write (meta name="googlebot" content="noindex") under HEADER to prevent Google's crawlers but no-one from indexing the page.
+And in humans.txt file i used a method which the pages are hidden in search results, but the Media Partners-Google crawler can still analyze them to determine which ads will appear to visitors to my site.
 
 {% highlight ruby %}
- 
+ User-agent: *
+ Disallow: /
+ User-agent: Mediapartners-Google
+ Allow: /
 {% endhighlight %}
+Read more about <a href="http://www.robotstxt.org/">Robots.txt</a>
+
+# What is humans.txt and how have you configure it for your site?
+
+Humans.txt is the TXT file that invite for knowing about the different peopel is behind a website. My Humans.txt contains information about the creater of website, the contact information and about the website.
+{% highlight ruby %}
+ /* Creater */
+
+Name : Malihe Sarvar
+Email : ms224nn@student.lnu.se
+Github : https://github.com/ms224nn
+Location : Kalmar, Sweden
+
+/* Site */
+
+Last update: 2017/11/14
+Website URL: http://localhost:4000
+Language: English
+{% endhighlight %}
+Read more about <a href="http://humanstxt.org/">Humans.txt</a>
 
  [jekyll-docs]: https://jekyllrb.com/docs/home
  [jekyll-gh]:   https://github.com/jekyll/jekyll
