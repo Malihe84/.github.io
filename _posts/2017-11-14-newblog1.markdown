@@ -1,0 +1,19 @@
+---
+ layout: post
+ title:  "Implements comments"
+ date:   2017-11-14 04:46:01 -0500
+ categories: jekyll update
+---
+# How did you implements comments to blog posts?
+
+{% highlight ruby %}
+ I used DisQus which is help the publishe rto make a website that allows to audiences to write their own opinion.
+ For using Disqus should we register and make an account in <a href="https://disqus.com/?ref_noscript">Disqus</a>
+ Then you can use the source code which Disqus provided for you.
+{% endhighlight %}
+I creat a HTML file which is contain the disqus code.
+
+
+ [jekyll-docs]: https://jekyllrb.com/docs/home
+ [jekyll-gh]:   https://github.com/jekyll/jekyll
+ [jekyll-talk]: https://talk.jekyllrb.com/
