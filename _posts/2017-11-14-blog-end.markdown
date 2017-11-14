@@ -1,0 +1,17 @@
+---
+ layout: post
+ title:  "Open graph"
+ date:   2017-11-14 04:46:01 -0500
+ categories: jekyll update
+---
+# What is Open Graph and how do you make use of   it?
+
+{% highlight ruby %}
+ By using Open graph technology, meta tags into the page's content, we can identify which elements of our page we want to show when someone share's our page.
+{% endhighlight %}
+Read more about<a href="http://ogp.me/">Open graph</a>
+
+
+ [jekyll-docs]: https://jekyllrb.com/docs/home
+ [jekyll-gh]:   https://github.com/jekyll/jekyll
+ [jekyll-talk]: https://talk.jekyllrb.com/
