@@ -1,7 +1,7 @@
 ---
  layout: post
  title:  "Robots and humans txt"
- date:   2017-11-14 04:46:01 -0500
+ date:   2017-11-14 03:46:01 -0500
  categories: jekyll update
 ---
 # What is robots.txt and how have you configure it for your site?

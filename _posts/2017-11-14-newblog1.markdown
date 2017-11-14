@@ -1,7 +1,7 @@
 ---
  layout: post
  title:  "Implements comments"
- date:   2017-11-14 04:46:01 -0500
+ date:   2017-11-15 06:46:01 -0500
  categories: jekyll update
 ---
 # How did you implements comments to blog posts?
