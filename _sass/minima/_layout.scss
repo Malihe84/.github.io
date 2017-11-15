@@ -1,14 +1,23 @@
 /**
  * Site header
  */
+ 
 .site-header {
   border-top: 5px solid $grey-color-dark;
   border-bottom: 1px solid $grey-color-light;
   min-height: $spacing-unit * 1.865;
-
+background-image: url("../pic/mali2.jpg");
   // Positioning context for the mobile navigation icon
   position: relative;
 }
+
+.picture{
+  background: url("../pic/bg5.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+} 
 
 .site-title {
   @include relative-font-size(1.625);
@@ -108,6 +117,7 @@
 .site-footer {
   border-top: 1px solid $grey-color-light;
   padding: $spacing-unit 0;
+  background-image: url("../pic/mali2.jpg");
 }
 
 .footer-heading {
@@ -147,6 +157,7 @@
 .footer-col-3 {
   width: -webkit-calc(45% - (#{$spacing-unit} / 2));
   width:         calc(45% - (#{$spacing-unit} / 2));
+  color: black;
 }
 
 @include media-query($on-laptop) {
@@ -177,6 +188,8 @@
  */
 .page-content {
   padding: $spacing-unit 0;
+  max-width: -400px;
+  margin: auto;
 }
 
 .page-heading {
@@ -186,6 +199,7 @@
 .post-list {
   margin-left: 0;
   list-style: none;
+  
 
   > li {
     margin-bottom: $spacing-unit;
@@ -193,13 +207,14 @@
 }
 
 .post-meta {
-  font-size: $small-font-size;
-  color: $grey-color;
+  font-size: 100%;
+  color: rgb(25, 95, 68);
+
 }
 
 .post-link {
   display: block;
-  @include relative-font-size(1.5);
+  @include relative-font-size(1);
 }
 
 
