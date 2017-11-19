@@ -5,8 +5,9 @@
 .site-header {
   border-top: 5px solid $grey-color-dark;
   border-bottom: 1px solid $grey-color-light;
+  text-shadow: -1px 0 rgb(250, 248, 248), 0 1px rgb(250, 248, 248), 1px 0 rgb(250, 248, 248), 0 -1px rgb(250, 248, 248);;
   min-height: $spacing-unit * 1.865;
-background-image: url("../pic/mali2.jpg");
+  background-image: url("../pic/pic01.jpg");
   // Positioning context for the mobile navigation icon
   position: relative;
 }
@@ -117,7 +118,8 @@ background-image: url("../pic/mali2.jpg");
 .site-footer {
   border-top: 1px solid $grey-color-light;
   padding: $spacing-unit 0;
-  background-image: url("../pic/mali2.jpg");
+  background-image: url("../pic/pic01.jpg");
+  position: relative;
 }
 
 .footer-heading {
@@ -157,7 +159,7 @@ background-image: url("../pic/mali2.jpg");
 .footer-col-3 {
   width: -webkit-calc(45% - (#{$spacing-unit} / 2));
   width:         calc(45% - (#{$spacing-unit} / 2));
-  color: black;
+  color: #f0e5e5;
 }
 
 @include media-query($on-laptop) {
@@ -208,7 +210,7 @@ background-image: url("../pic/mali2.jpg");
 
 .post-meta {
   font-size: 100%;
-  color: rgb(25, 95, 68);
+  color: rgb(45, 113, 48);
 
 }
 
